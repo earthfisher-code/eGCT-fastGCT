@@ -1,6 +1,6 @@
 # eGCT-fastGCT
 This project implements the eGCT and fastGCT algorithm introduced in paper "Fast Sequential Clustering in Riemannian Manifolds for Dynamic and Time-Series-Annotated Multilayer 
-Networks"
+Networks"(C. Ye, K. Slavakis, J. Nakuci, S. F. Muldoon, and J. Medaglia. Fast sequential clustering in Riemannian manifolds for dynamic and time-series-annotated multilayer networks. Accepted for publication in IEEE Open Journal of Signal Processing.)
 
 ## eGCT with kARMA feature for State Clustering task
 * First unzip the utilityeGCT_kARMA_stateclustering.zip file
