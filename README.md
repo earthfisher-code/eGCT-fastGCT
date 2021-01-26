@@ -9,4 +9,12 @@ Networks"(C. Ye, K. Slavakis, J. Nakuci, S. F. Muldoon, and J. Medaglia. Fast se
 * Define the kernel function in KernelFunctionARMA.m file
 * Run eGCT_kARMA_stateclustering.m and the clustered label is saved in Label.mat.
 
-* I will keep update the code of the rest of the algorithm of eGCT_kARMA_communitydetection, eGCT_kARMA_sequencetracking and eGCT_kPC and fastGCT.
+
+## eGCT with kARMA feature for State Clustering task (eGCT_kARMA_StateClustering folder)
+* First unzip the utilityeGCT_kARMA_CommunityDetection.zip file
+* The data should be a matrix with (Nodes x Length), for example in the ExampleData.mat, it has 10 nodes and length of time series is 500 so the size is 10 x 500
+* Define the parameters in parameters_eGCT_kARMA_CommunityDetection.m file
+* Define the kernel function in KernelFunction.m file
+* Run eGCT_kARMA_CommunityDetection.m and the clustered label is saved in Label.mat.
+
+* I will keep update the code of the rest of the algorithm of eGCT_kARMA_sequencetracking, eGCT_kPC and fastGCT.
