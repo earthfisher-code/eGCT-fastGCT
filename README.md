@@ -10,7 +10,7 @@ Networks"(C. Ye, K. Slavakis, J. Nakuci, S. F. Muldoon, and J. Medaglia. Fast se
 * Run eGCT_kARMA_stateclustering.m and the clustered label is saved in Label.mat.
 
 
-## eGCT with kARMA feature for State Clustering task (eGCT_kARMA_StateClustering folder)
+## eGCT with kARMA feature for Community Detection task (eGCT_kARMA_CommunityDetection folder)
 * First unzip the utilityeGCT_kARMA_CommunityDetection.zip file
 * The data should be a matrix with (Nodes x Length), for example in the ExampleData.mat, it has 10 nodes and length of time series is 500 so the size is 10 x 500
 * Define the parameters in parameters_eGCT_kARMA_CommunityDetection.m file
