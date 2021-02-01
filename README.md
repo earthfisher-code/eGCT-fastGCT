@@ -9,7 +9,6 @@ Networks"(C. Ye, K. Slavakis, J. Nakuci, S. F. Muldoon, and J. Medaglia. Fast se
 * Define the kernel function in KernelFunctionARMA.m file
 * Run eGCT_kARMA_stateclustering.m and the clustered label is saved in Label.mat.
 
-
 ## eGCT with kARMA feature for Community Detection task (eGCT_kARMA_CommunityDetection folder)
 * First unzip the utility_eGCT_kARMA_CommunityDetection.zip file
 * The data should be a matrix with (Nodes x Length), for example in the ExampleData.mat, it has 10 nodes and length of time series is 500 so the size is 10 x 500
@@ -17,4 +16,11 @@ Networks"(C. Ye, K. Slavakis, J. Nakuci, S. F. Muldoon, and J. Medaglia. Fast se
 * Define the kernel function in KernelFunction.m file
 * Run eGCT_kARMA_CommunityDetection.m and the clustered label is saved in Label.mat.
 
-* I will keep update the code of the rest of the algorithm of eGCT_kARMA_sequencetracking, eGCT_kPC and fastGCT.
+## eGCT with kARMA feature for Subnetwork sequence clustering task (eGCT_kARMA_SubnetworkSequence folder)
+* First unzip the utility_eGCT_kARMA_SubnetworkSequence.zip file
+* The data should be a matrix with (Nodes x Length x Layers), for example in the ExampleData.mat, it has 10 nodes, 4 layer and length of time series is 500 so the size is 10 x 500 x 4
+* Define the parameters in parameters_eGCT_kARMA_SubnetworkSequence.m file
+* Define the kernel function in KernelFunction.m file
+* Run eGCT_kARMA_SubnetworkSequence.m and the clustered label is saved in Label.mat.
+
+* I will keep update the code of the rest of the algorithm of fastGCT.
