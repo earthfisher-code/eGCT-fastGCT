@@ -23,4 +23,11 @@ Networks"(C. Ye, K. Slavakis, J. Nakuci, S. F. Muldoon, and J. Medaglia. Fast se
 * Define the kernel function in KernelFunction.m file
 * Run eGCT_kARMA_SubnetworkSequence.m and the clustered label is saved in Label.mat.
 
+## fastGCT with kARMA feature for State Clustering task (fastGCT_kARMA_StateClustering folder)
+* First unzip the utility_fastGCT_kARMA_stateclustering.zip fil
+* The data should be a matrix with (Nodes x Length x Layers), for example in the ExampleData.mat, it has 10 nodes, 4 layer and length of time series is 500 so the size is 10 x 500 x 4
+* Define the parameters in parameters.m file
+* Define the kernel function in KernelFunction.m file
+* Run fastGCT_kARMA_stateclustering.m and the clustered label is saved in Label.mat.
+
 * I will keep update the code of the rest of the algorithm of fastGCT.
