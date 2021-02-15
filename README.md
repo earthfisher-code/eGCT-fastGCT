@@ -30,7 +30,7 @@ Networks"(C. Ye, K. Slavakis, J. Nakuci, S. F. Muldoon, and J. Medaglia. Fast se
 * Define the kernel function in KernelFunction.m file
 * Run fastGCT_kARMA_stateclustering.m and the clustered label is saved in Label.mat.
 
-## fastGCT with kARMA feature for Community Detection task (fastGCT_kARMA_StateClustering folder)
+## fastGCT with kARMA feature for Community Detection task (fastGCT_kARMA_CommunityDetection folder)
 * First unzip the utility_fastGCT_kARMA_CommunityDetection.zip fil
 * The data should be a matrix with (Nodes x Length), for example in the ExampleData.mat, it has 10 nodes and length of time series is 500 so the size is 10 x 500
 * Define the parameters in parameters.m file
